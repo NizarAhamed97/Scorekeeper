@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score keeper</title>
+    <!--Fav icon from icons8.com-->
+    <link rel="icon" href="./img/icons8-tennis-racquet-100.png">
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Custom css file-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--font awesome icons-->
+    <script src="https://kit.fontawesome.com/5f95400d91.js"></script>
+</head>
+
+<body>
+    <div class="d-flex mt- 5 pt-5 justify-content-center">
+        <div class="card border-light" style="width: 25rem;">
+            <img class="card-img-top" src="./img/lisa-keffer-3B8nIiT-Pmc-unsplash.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Ping Pong Score keeper</h5>
+
+                <dl class="card-text text-center">
+                    <dt class="h3"><span id="p1display">0</span> to <span id="p2display">0</span></dt>
+                    <dd>Use the buttons below to keep score</dd>
+                </dl>
+                <label for="playingto">Playing to</label>
+                <select name=" playingto" class="d-inline w-25 form-select form-select-sm" id="winningscore">
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <div class="btn-group mt-3 d-flex justify-content-center">
+                    <button class="btn btn-primary" type="button" id="p1button">+1 Player1</button>
+                    <button class="btn btn-secondary" type="button" id="p2button">+2 Player2</button>
+                    <button class="btn btn-danger" type="reset" id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Custom js file-->
+    <script src="./js/app.js"></script>
+    <!--Jquery file-->
+    <script src="./js/jquery.3.6.0.js"></script>
+    <!--Bootstrap js file-->
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

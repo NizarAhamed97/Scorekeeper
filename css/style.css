@@ -1,0 +1,6 @@
+/*Importing fonts.css to style.css */
+@import url(./fonts.css);
+
+body {
+    font-family: "Roboto-italic";
+}
